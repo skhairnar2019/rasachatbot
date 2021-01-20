@@ -1,0 +1,18 @@
+cd E:\Data Science\DS-Ineuron\Assignments\JupyterNotebooks
+
+
+-----------------------------------------------------------------------------------------------
+Step 1: Create a new environment using Anaconda prompt        conda create -n imagescrapper python==3.6.9   (Mentioning a python version is optional)  But always a good practice        
+Check all environments list which we have created so far using anaconda                
+conda env list        
+Activate the newly created environment in Anaconda prompt             
+conda activate env_name
+
+------------------------------------------------------------------------------------------------
+To create requiremnet.txt
+
+1) Navigate to path of proj
+2) Use it --> pip freeze > requirements.txt
+3) To use in another project(enviroment) --> pip install -r requirements.txt
+
+-----------------------------------------------------------------------------------------------
