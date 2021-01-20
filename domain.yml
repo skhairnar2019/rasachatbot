@@ -1,0 +1,39 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- GET_BOOKING_INFO
+- BOOKING_ID
+- facebook
+- gmail
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_sure_help:
+  - text: Sure, we will help you out with that. Can you please help me with your booking
+      ID.
+  - text: Sure sir/mam, What is your booking ID
+  utter_thanks:
+  - text: thanks for providing your booking id
+  utter_facebook:
+  - text: 'Here is the link to facebook : https://www.facebook.com/'
+  utter_gmail:
+  - text: 'Here is the link to gmail : https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin'
